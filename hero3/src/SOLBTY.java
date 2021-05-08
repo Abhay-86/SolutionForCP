@@ -7,6 +7,7 @@ public class SOLBTY {
         InputStreamReader r = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(r);
         int T = Integer.parseInt(br.readLine());
+        int arr1[]=new int[T];
         for (int i = 0; i < T; i++) {
             String b = br.readLine();
             System.out.println(b);
@@ -16,6 +17,12 @@ public class SOLBTY {
             arr[1] = Integer.parseInt(b.substring(0, b.indexOf(' ')));
             b = b.substring(b.indexOf(' ') + 1);
             arr[2] = Integer.parseInt(b.substring(0));
+            int maxSoluble=(arr[1]+(100-arr[0])*arr[2])*10;
+            arr1[i]=maxSoluble;
+        }
+        for(int i=0;i<T;i++)
+        {
+            System.out.println(arr1[i]);
         }
     }
 }
