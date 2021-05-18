@@ -10,7 +10,6 @@ public class SOLBTY {
         int arr1[]=new int[T];
         for (int i = 0; i < T; i++) {
             String b = br.readLine();
-            System.out.println(b);
             int arr[] = new int[3];
             arr[0] = Integer.parseInt(b.substring(0, b.indexOf(' ')));
             b = b.substring(b.indexOf(' ') + 1);
