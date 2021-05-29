@@ -1,1 +1,1 @@
-here u can get solution for CC problem by searching through problem tag name
+here u can get solution for CP problem by searching through problem tag name
